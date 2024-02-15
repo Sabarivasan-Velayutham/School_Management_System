@@ -30,6 +30,7 @@ const Nav = () => {
             </NavLink>
           </>
         )}
+
         {user.role === "student" && (
           <NavLink to={"./join_group"} className="w-full font-medium">
             <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-violet-600/40 ">
@@ -38,7 +39,15 @@ const Nav = () => {
             </li>
           </NavLink>
         )}
+
+        <NavLink to={"./videocall"} className="w-full font-medium">
+          <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-violet-600/40 ">
+            <BiBookAdd className="pt-[0.1rem] text-2xl  " />
+            Video Conference
+          </li>
+        </NavLink>
       </ul>
+
       <ul className="flex flex-grow flex-col items-start justify-end gap-[6px]">
         <NavLink to={"./profile"} className="w-full font-medium">
           <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-violet-600/40 ">

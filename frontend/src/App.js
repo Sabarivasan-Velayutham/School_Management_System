@@ -30,6 +30,7 @@ import TeacherForm from "./Components/Forms/TeacherForm";
 import StudentForm from "./Components/Forms/StudentForm";
 import NotesForm from "./Components/Forms/NotesForm";
 import Login from "./Components/Forms/Login";
+import VideoConference from "./VideoConference";
 
 // lazy loading user specific components
 const GroupForm = lazy(() => import("./Components/Forms/GroupForm"));
@@ -56,6 +57,8 @@ function App() {
           <Route path="group/:group/:note/edit" element={<NotesForm />} />
           <Route path="group/:group/students" element={<StudentsList />} />
           <Route path="profile" element={<Profile />} />
+          <Route path="videocall" element={<VideoConference />} />
+
           <Route
             path="add_group"
             element={
