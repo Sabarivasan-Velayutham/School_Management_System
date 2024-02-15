@@ -4,6 +4,7 @@ import UserContext from "../../Hooks/UserContext";
 import { GiBookshelf } from "react-icons/gi";
 import { BiBookAdd } from "react-icons/bi";
 import { PiStudent, PiUser, PiBooks } from "react-icons/pi";
+import { GoVideo } from "react-icons/go";
 
 const Nav = () => {
   const { user } = useContext(UserContext);
@@ -42,7 +43,7 @@ const Nav = () => {
 
         <NavLink to={"./videocall"} className="w-full font-medium">
           <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-violet-600/40 ">
-            <BiBookAdd className="pt-[0.1rem] text-2xl  " />
+            <GoVideo className="pt-[0.1rem] text-2xl  " />
             Video Conference
           </li>
         </NavLink>

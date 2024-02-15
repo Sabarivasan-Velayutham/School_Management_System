@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { GiBookshelf } from "react-icons/gi";
 import { BiBookAdd } from "react-icons/bi";
 import { PiBooks, PiUser, PiStudent } from "react-icons/pi";
+import { GoVideo } from "react-icons/go";
 import { useContext, useEffect } from "react";
 import UserContext from "../../Hooks/UserContext";
 import axios from "../../config/api/axios";
@@ -94,7 +95,7 @@ const Dash = () => {
           className="flex gap-2 rounded-lg bg-violet-100 p-6 text-base hover:bg-violet-950 hover:text-slate-100 dark:bg-violet-950/40 lg:text-lg"
           to={"./videocall"}
         >
-          <BiBookAdd className="text-[2.5rem] lg:text-[4rem] " />
+          <GoVideo className="text-[2.5rem] lg:text-[4rem] " />
           <div className="font-semibold">
             Video Conference
             <p className="text-sm font-normal lg:text-base ">
