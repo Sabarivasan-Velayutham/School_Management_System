@@ -51,7 +51,7 @@ const GroupForm = () => {
     <>
       {user.role === "HOD" ? (
         <main className="group">
-          <h2 className="mb-2 mt-3 whitespace-break-spaces text-4xl font-bold text-violet-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-slate-400 md:text-6xl">
+          <h2 className="mb-2 mt-3 whitespace-break-spaces text-4xl font-bold text-violet-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-white md:text-6xl">
             Create Group
           </h2>
           <form className="w-full md:w-1/3">

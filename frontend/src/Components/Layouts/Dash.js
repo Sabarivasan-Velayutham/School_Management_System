@@ -25,12 +25,12 @@ const Dash = () => {
 
   return (
     <main className="self-center">
-      <h2 className="m-6 mx-auto text-center text-6xl font-bold dark:text-slate-400">
+      <h2 className="m-6 mx-auto text-center text-6xl font-bold dark:text-white">
         Dashboard
       </h2>
       <div className="grid grid-cols-1 place-content-center gap-3 px-1 py-4 lg:grid-cols-2 lg:gap-4 lg:px-8 xl:grid-cols-3">
         <Link
-          className="flex gap-2 rounded-lg bg-violet-100 p-6 text-base hover:bg-violet-950 hover:text-slate-100 dark:bg-violet-950/40 lg:text-lg"
+          className="flex gap-2 rounded-lg bg-violet-100 p-6 text-base hover:bg-violet-950 hover:text-slate-100 dark:bg-gray-700 lg:text-lg"
           to={"./group"}
         >
           <GiBookshelf className="text-[2.5rem] lg:text-[4rem] " />
@@ -45,7 +45,7 @@ const Dash = () => {
         {user.role === "HOD" && (
           <>
             <Link
-              className="flex gap-2 rounded-lg bg-violet-100 p-6 text-base hover:bg-violet-950 hover:text-slate-100 dark:bg-violet-950/40 lg:text-lg"
+              className="flex gap-2 rounded-lg bg-violet-100 p-6 text-base hover:bg-violet-950 hover:text-slate-100 dark:bg-gray-700 lg:text-lg"
               to={"./add_group"}
             >
               <BiBookAdd className="text-[2.5rem] lg:text-[4rem] " />
@@ -61,7 +61,7 @@ const Dash = () => {
 
         {user.role === "student" && (
           <Link
-            className="flex gap-2 rounded-lg bg-violet-100 p-6 text-base hover:bg-violet-950 hover:text-slate-100 dark:bg-violet-950/40 lg:text-lg"
+            className="flex gap-2 rounded-lg bg-violet-100 p-6 text-base hover:bg-violet-950 hover:text-slate-100 dark:bg-gray-700 lg:text-lg"
             to={"./join_group"}
           >
             <PiBooks className="text-[2.5rem] lg:text-[4rem] " />
@@ -74,7 +74,7 @@ const Dash = () => {
           </Link>
         )}
         <Link
-          className="flex gap-2 rounded-lg bg-violet-100 p-6 text-base hover:bg-violet-950 hover:text-slate-100 dark:bg-violet-950/40 lg:text-lg"
+          className="flex gap-2 rounded-lg bg-violet-100 p-6 text-base hover:bg-violet-950 hover:text-slate-100 dark:bg-gray-700 lg:text-lg"
           to={"./profile"}
         >
           {user.role === "student" ? (
@@ -92,7 +92,7 @@ const Dash = () => {
         </Link>
 
         <Link
-          className="flex gap-2 rounded-lg bg-violet-100 p-6 text-base hover:bg-violet-950 hover:text-slate-100 dark:bg-violet-950/40 lg:text-lg"
+          className="flex gap-2 rounded-lg bg-violet-100 p-6 text-base hover:bg-violet-950 hover:text-slate-100 dark:bg-gray-700 lg:text-lg"
           to={"./videocall"}
         >
           <GoVideo className="text-[2.5rem] lg:text-[4rem] " />

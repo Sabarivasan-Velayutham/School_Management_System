@@ -22,7 +22,6 @@ module.exports = {
           "50%": {
             transform: "scale(0.9)",
             opacity: "0.9",
-            // filter: "blur(0px)",
           },
         },
         fadeIn: {

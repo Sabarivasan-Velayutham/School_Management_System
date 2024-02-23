@@ -11,11 +11,11 @@ const Nav = () => {
   return (
     <nav
       id="nav"
-      className="z-0 hidden h-full flex-col justify-stretch bg-slate-950 px-4 py-4 text-slate-100 dark:bg-gradient-to-b dark:from-slate-950 dark:from-65% dark:to-violet-950/60 dark:to-95% lg:flex "
+      className="z-0 hidden h-full flex-col justify-stretch bg-slate-950 px-4 py-4 text-slate-100 dark:bg-black lg:flex border-r border-gray-300"
     >
       <ul className="m-auto flex flex-grow flex-col items-center justify-start gap-[6px]">
         <NavLink to={"./group"} className="w-full font-medium">
-          <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-violet-600/40 ">
+          <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-gray-700 ">
             <GiBookshelf className="pt-[0.1rem] text-2xl  " />
             Groups
           </li>
@@ -24,7 +24,7 @@ const Nav = () => {
         {user.role === "HOD" && (
           <>
             <NavLink to={"./add_group"} className="w-full font-medium">
-              <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-violet-600/40 ">
+              <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-gray-700  ">
                 <BiBookAdd className="pt-[0.1rem] text-2xl  " />
                 Create Group
               </li>
@@ -34,7 +34,7 @@ const Nav = () => {
 
         {user.role === "student" && (
           <NavLink to={"./join_group"} className="w-full font-medium">
-            <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-violet-600/40 ">
+            <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-gray-700  ">
               <PiBooks className="pt-[0.1rem] text-2xl  " />
               Manage Group
             </li>
@@ -42,7 +42,7 @@ const Nav = () => {
         )}
 
         <NavLink to={"./videocall"} className="w-full font-medium">
-          <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-violet-600/40 ">
+          <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-gray-700  ">
             <GoVideo className="pt-[0.1rem] text-2xl  " />
             Video Conference
           </li>
@@ -51,7 +51,7 @@ const Nav = () => {
 
       <ul className="flex flex-grow flex-col items-start justify-end gap-[6px]">
         <NavLink to={"./profile"} className="w-full font-medium">
-          <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-violet-600/40 ">
+          <li className="flex gap-2 rounded-md px-4 py-2 hover:bg-gray-700  ">
             {user.role === "student" ? (
               <PiStudent className="pt-[0.1rem] text-2xl" />
             ) : (
