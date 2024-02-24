@@ -2,9 +2,8 @@ import { useContext, useState, useEffect } from "react";
 import { useNavigate, Navigate } from "react-router-dom";
 import UserContext from "../../Hooks/UserContext";
 import axios from "../../config/api/axios";
-import { FaUniversity } from "react-icons/fa";
+import { IoSchoolSharp } from "react-icons/io5";
 import { PiStudentThin, PiUserThin, PiSpinnerGapBold } from "react-icons/pi";
-import CircleDesign from "../Layouts/CircleDesign";
 import ErrorStrip from "../ErrorStrip";
 
 const Login = () => {
@@ -71,7 +70,7 @@ const Login = () => {
             </header>
           )}
           <section className="z-0 mb-4 flex items-center gap-2 whitespace-nowrap text-6xl md:text-8xl lg:gap-4">
-            <FaUniversity />
+            <IoSchoolSharp />
             <h1 className="font-spectral font-semibold  text-slate-900  dark:text-slate-300 ">
               Learning Hub
             </h1>
@@ -118,7 +117,7 @@ const Login = () => {
                   ) : userType === "teacher" ? (
                     <PiUserThin className="animate-slide rounded-full border-2 border-slate-900 p-1 font-light dark:border-slate-300 md:p-2" />
                   ) : (
-                    <FaUniversity className="animate-fadeIn rounded-full border-2 border-slate-900 p-1 font-light dark:border-slate-300 md:p-2" />
+                    <IoSchoolSharp className="animate-fadeIn rounded-full border-2 border-slate-900 p-1 font-light dark:border-slate-300 md:p-2" />
                   )}
                 </div>
               </section>

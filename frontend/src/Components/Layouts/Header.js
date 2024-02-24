@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { FaUniversity } from "react-icons/fa";
+import { IoSchoolSharp } from "react-icons/io5";
 import { FiLogOut } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import UserContext from "../../Hooks/UserContext";
@@ -19,7 +19,7 @@ const Header = () => {
         to="/dash"
         className="ml-4 flex items-center gap-2 px-3 py-1 text-2xl font-semibold sm:text-3xl"
       >
-        <FaUniversity className="m-1" />
+        <IoSchoolSharp className="m-1"/>
         <h1 className="decoration-grey-500 m-0 pr-1 font-spectral text-slate-50 decoration-[3px] underline-offset-[3px] hover:underline">
           Learning Hub
         </h1>
