@@ -8,8 +8,11 @@ A College Based Data Management System.
 
 ### Teacher
 
-**username:** Delphine  
-**pwd:** Delphine123
+**username:** teacher1  
+**pwd:** teacher1123
+
+**username:** teacher2  
+**pwd:** teacher2123
 
 Teacher can add or edit
 
@@ -17,8 +20,8 @@ Teacher can add or edit
 
 ### HOD
 
-**username:** Moriah  
-**pwd:** Moriah123
+**username:** hod
+**pwd:** admin123
 
 HOD can do everything Teacher can.  
 HOD can also
@@ -27,8 +30,11 @@ HOD can also
 
 ### Student
 
-**username:** Bret  
-**pwd:** Bret
+**username:** stud1  
+**pwd:** stud1123
+
+**username:** stud2
+**pwd:** stud2123
 
 Register a new Student and Login.  
 You can also login with the First Name of any student in the class.
