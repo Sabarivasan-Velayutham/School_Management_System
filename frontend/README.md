@@ -14,35 +14,29 @@ A College Based Data Management System.
 **username:** teacher2  
 **pwd:** teacher2123
 
-Teacher can add or edit
-
-- Notes
+Teacher can add or edit notes in groups<br>
+Teacher can start video conference call
 
 ### HOD
 
-**username:** hod
+**username:** hod<br>
 **pwd:** admin123
 
-HOD can do everything Teacher can.  
-HOD can also
-
-- Add New Group
+HOD can do everything Teacher can.  <br>
+HOD can also add New Group and can upload notes.<br>
+HOD can view all groups and can view uploaded notes by teachers.
 
 ### Student
 
-**username:** stud1  
+**username:** stud1  <br>
 **pwd:** stud1123
 
-**username:** stud2
+**username:** stud2<br>
 **pwd:** stud2123
 
-Register a new Student and Login.  
-You can also login with the First Name of any student in the class.
+Register a new Student and Login.  <br>
 
-Student can view
-
-- Notes
-
+Student can view notes in groups.<br>
 Student can also join or leave a Group(Subject).
 
 ## Tech Stack
