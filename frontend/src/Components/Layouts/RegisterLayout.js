@@ -21,9 +21,9 @@ const RegisterLayout = () => {
           </h1>
           <div className="m-2 flex flex-col-reverse gap-4 text-4xl md:text-5xl  lg:flex-col ">
             <div className="flex gap-4 ">
-              <NavLink to={"./reg_teacher"}>
+              {/* <NavLink to={"./reg_teacher"}>
                 <PiUserThin className="rounded-full border-[1px] border-slate-900 p-[2px] font-light dark:border-slate-300 md:p-2" />
-              </NavLink>
+              </NavLink> */}
               <NavLink to={"./reg_student"}>
                 <PiStudentThin className="rounded-full border-[1px] border-slate-900 p-[2px] font-light dark:border-slate-300 md:p-2" />
               </NavLink>

@@ -42,7 +42,7 @@ function App() {
       <Route path="/" element={<AppLayout />} errorElement={<ErrorElement />}>
         <Route index element={<Login />} />
         <Route path="/register" element={<RegisterLayout />}>
-          <Route path="reg_teacher" element={<TeacherForm />} />
+          {/* <Route path="reg_teacher" element={<TeacherForm />} /> */}
           <Route path="reg_student" element={<StudentForm />} />
         </Route>
         <Route
