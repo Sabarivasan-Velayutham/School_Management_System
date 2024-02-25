@@ -24,7 +24,7 @@ const GroupForm = () => {
   useEffect(() => {
     const getTeachers = async () => {
       const list = await axios.get("/teacher/list/" + user.department);
-      setTeachers(list.data.slice(1));
+      setTeachers(list.data);
     };
     getTeachers();
   }, [user]);
