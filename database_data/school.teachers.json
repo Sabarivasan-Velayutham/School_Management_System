@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "65c926c138b237eecaca63d8"
+  },
+  "username": "hod",
+  "name": "hod",
+  "email": "hod@gmail.com",
+  "qualification": "BE",
+  "department": "Computer Science",
+  "password": "$2b$10$GdAwqhp.uq3R2ToAsWd34eWT/zM7fJWOPDNxTIs.y2AVwQ7NO8Ihy",
+  "role": "HOD",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c926e138b237eecaca63db"
+  },
+  "username": "teacher1",
+  "name": "teacher1",
+  "email": "teacher1@gmail.com",
+  "qualification": "BE",
+  "department": "Computer Science",
+  "password": "$2b$10$Tr60lEf00xYl7QbsfikESuZ626nXtu0ZMgTgDxEtxMO3/oTLFB3i6",
+  "role": "Teacher",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c926f238b237eecaca63de"
+  },
+  "username": "teacher2",
+  "name": "teacher2",
+  "email": "teacher2@gmail.com",
+  "qualification": "BE",
+  "department": "Computer Science",
+  "password": "$2b$10$UWAJ22kX04q6A9TGxpQafe1NWDSgdgXs5mVO9H4H08fcRAFCwoUNO",
+  "role": "Teacher",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cd9ce4bd62d2a88270fce3"
+  },
+  "username": "hod1",
+  "name": "hod1",
+  "email": "hod1@gmail.com",
+  "qualification": "BE",
+  "department": "Computer Science",
+  "password": "$2b$10$8Ff7I2FLIStMz2aKeINIX.QfCKKu5vrps6yoIcFsD9mtg.YF3rzJy",
+  "role": "HOD",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65dac31622e5610e85e4304b"
+  },
+  "username": "hod2",
+  "name": "hod2",
+  "email": "hod2@gmail.com",
+  "qualification": "BE",
+  "department": "Computer Science",
+  "password": "$2b$10$4RkdjflrRD/y6oZz7cpbreQ3eHa2Y.G5Un8vzZ8.bz1/43QzVpBVO",
+  "role": "HOD",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65dac5f605a7faf54861f736"
+  },
+  "username": "teacher3",
+  "name": "teacher3",
+  "email": "teacher3@gmail.com",
+  "qualification": "BE",
+  "department": "Computer Science",
+  "password": "$2b$10$TZtr/wsbPK0FtqKjNLOA7uqKEGowhCuaSzSyIOH/6RQ1T5r/U4U.y",
+  "role": "Teacher",
+  "__v": 0
+}]

@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "65c9289d38b237eecaca6408"
+  },
+  "group": "group 1 for teacher 1 ",
+  "students": [
+    {
+      "$oid": "65c9274638b237eecaca63e5"
+    },
+    {
+      "$oid": "65dac66205a7faf54861f739"
+    }
+  ],
+  "teacher": {
+    "$oid": "65c926e138b237eecaca63db"
+  },
+  "__v": 20
+},
+{
+  "_id": {
+    "$oid": "65c928eb38b237eecaca6411"
+  },
+  "group": "group 2 for teacher 1 ",
+  "students": [
+    {
+      "$oid": "65dac66205a7faf54861f739"
+    },
+    {
+      "$oid": "65c9274638b237eecaca63e5"
+    }
+  ],
+  "teacher": {
+    "$oid": "65c926e138b237eecaca63db"
+  },
+  "__v": 6
+},
+{
+  "_id": {
+    "$oid": "65c9290b38b237eecaca641c"
+  },
+  "group": "group 1 for teaacher 2 ",
+  "students": [
+    {
+      "$oid": "65dac66205a7faf54861f739"
+    },
+    {
+      "$oid": "65c9274638b237eecaca63e5"
+    }
+  ],
+  "teacher": {
+    "$oid": "65c926f238b237eecaca63de"
+  },
+  "__v": 6
+},
+{
+  "_id": {
+    "$oid": "65cd9d5bbd62d2a88270fcee"
+  },
+  "group": "test_group",
+  "students": [
+    {
+      "$oid": "65cd9e5ebd62d2a88270fd26"
+    }
+  ],
+  "teacher": {
+    "$oid": "65c926f238b237eecaca63de"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "65dac71c05a7faf54861f745"
+  },
+  "group": "qwerty",
+  "students": [
+    {
+      "$oid": "65dac66205a7faf54861f739"
+    }
+  ],
+  "teacher": {
+    "$oid": "65dac5f605a7faf54861f736"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "65daea88a0c56d8cd059fae0"
+  },
+  "group": "helloworld",
+  "students": [],
+  "teacher": {
+    "$oid": "65dac5f605a7faf54861f736"
+  },
+  "__v": 0
+}]

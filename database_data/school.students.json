@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "65c9274638b237eecaca63e5"
+  },
+  "name": "stud1",
+  "email": "stud1@gmail.com",
+  "course": "BE",
+  "username": "stud1",
+  "password": "$2b$10$U5VI/RreC9.3KUa3yxWgNOy00as3lV/vry/YY9O6xOdFg3mpLHpjK",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9277038b237eecaca63e8"
+  },
+  "name": "stud2",
+  "email": "stud2@gmail.com",
+  "course": "BE",
+  "username": "stud2",
+  "password": "$2b$10$IzqFb/zeQlkfl..jVBEdLu3edgMSlfQIWdAYL3fdUvYTqVAEtJDNK",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9278c38b237eecaca63eb"
+  },
+  "name": "stud3",
+  "email": "stud3@gmail.com",
+  "course": "BE",
+  "username": "stud3",
+  "password": "$2b$10$m6b3WY01dvj4JtSwOXo.xe4oZ7yUGdPfGxFS1.XPmDk/Q/BaKhN0q",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cd9e29bd62d2a88270fd21"
+  },
+  "name": "tetsstud",
+  "email": "tetsstud@gmail.com",
+  "course": "BE",
+  "username": "teststud",
+  "password": "$2b$10$HH0TDDoZYpYbiltE5yQ9VeyVbZRtThRrBoBHH9I9jv2ffjdYZq6em",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cd9e5ebd62d2a88270fd26"
+  },
+  "name": "hello",
+  "email": "hello@gmail.com",
+  "course": "BE",
+  "username": "hello",
+  "password": "$2b$10$VLeSeF/bOd10Rm0pT55etOyY/WqWhP0yDbi5ATY62RFQmbLr18Bn.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65dac66205a7faf54861f739"
+  },
+  "name": "hellostud",
+  "email": "hellostud@gmail.com",
+  "course": "BE",
+  "username": "hellostud",
+  "password": "$2b$10$hgDl1XEDFxE6UrKFqRy1Teinp6AKXtqPwD3t/3OTvWTSsTYbdXWmK",
+  "__v": 0
+}]
